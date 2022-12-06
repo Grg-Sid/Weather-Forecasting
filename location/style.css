@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    background: url('images/bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+} */
+
+
+body {
+
+    background: url('images/bg1.jpg');
+    background-size: cover;
+
+    font-family: 'Poppins', sans-serif;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.click-btn {
+    background-color: #023e8a;
+    color: black;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+
+.name::after {
+    content: ". . .";
+    display: flex;
+    flex-direction: column;
+}
+
+.temp::before {
+    content: "temperature : ";
+}
+
+.humidity::before {
+    content: "Humidity : ";
+}
+
+.temperatueRange::before {
+    content: "Temperature Range : ";
+}

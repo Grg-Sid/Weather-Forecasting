@@ -31,6 +31,19 @@ body {
     font-weight: 100;
 }
 
+#loc {
+    background: rgba(24, 24, 27, 0.8);
+    padding: 3px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #eee;
+    border: 1px solid rgba(24, 24, 27, 0.6);
+    background: rgba(24, 24, 27, 0.6);
+    position: absolute;
+    margin-top: -8%;
+    margin-left: 90%;
+}
+
 .date-container .time {
     font-size: 70px;
 }
